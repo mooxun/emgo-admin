@@ -1,0 +1,41 @@
+{
+  "name": "emgo-admin",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@antv/data-set": "^0.11.7",
+    "ant-design-vue": "^1.7.2",
+    "axios": "^0.21.0",
+    "core-js": "^3.6.5",
+    "enquire.js": "^2.1.6",
+    "moment": "^2.29.1",
+    "nprogress": "^0.2.0",
+    "viser-vue": "^2.4.8",
+    "vue": "^2.6.11",
+    "vue-clipboard2": "^0.3.1",
+    "vue-ls": "^3.2.1",
+    "vue-router": "^3.2.0",
+    "vue-svg-component-runtime": "^1.0.1",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.0",
+    "@vue/cli-plugin-eslint": "^4.5.0",
+    "@vue/cli-service": "^4.5.0",
+    "@vue/eslint-config-airbnb": "^5.0.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.1.0",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
