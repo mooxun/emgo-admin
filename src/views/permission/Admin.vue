@@ -10,7 +10,7 @@
     >
       <tag-boole slot="status" slot-scope="text, record" :tagValue="record.status"></tag-boole>
       <tag-boole slot="is_root" slot-scope="text, record" :tagValue="record.is_root"></tag-boole>
-      <action-column slot="action" :edit="true" :del="true"
+      <action-column slot="action" :edit="!(item.username === 'admin')" :del="!(item.username === 'admin')"
                     slot-scope="value,item" :record="item"
                      @on-edit="handleEdit"
                     @on-del="handleDelete"
